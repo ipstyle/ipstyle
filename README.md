@@ -1,5 +1,3 @@
-# Hi, I'm Albert (ipstyle) 👋
-
 Indie developer from Switzerland 🇨🇭 — I build native macOS tools.
 
 ## 🧠 AI-Cockpit — all your AI limits at a glance
