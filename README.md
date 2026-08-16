@@ -1,15 +1,40 @@
-### Apps
+# Hi, I'm Albert (ipstyle) 👋
 
-**[Toolbox](https://github.com/ipstyle/toolbox)** — Alltagswerkzeuge für den Mac an einem Ort: Desktops wechseln, App-Liste, Bilder verkleinern, Text aus Bild, PDFs zusammenfügen, QR-Codes, Timer, Passwörter, Netzwerk, Time Machine, Währungskurse und SARON.
+Indie developer from Switzerland 🇨🇭 — I build native macOS tools.
 
-**[AI Cockpit](https://github.com/ipstyle/ai-cockpit)** — Nutzung und Kosten von Claude, ChatGPT/Codex, OpenAI-API, Anthropic-API und Kimi in einer Ansicht, mit Verlauf und Prognose.
+## 🧠 AI-Cockpit — all your AI limits at a glance
 
-### Wie ich das halte
+A macOS menu bar app that keeps every AI budget you have in one place:
+**Claude** subscription usage, **ChatGPT/Codex** quotas, **OpenAI** and
+**Anthropic** API costs, **Kimi** credit — plus the **Claude Code sessions**
+currently running on your Mac, with token shares and context windows.
 
-Beide Apps laufen lokal. Sitzungsinhalte werden nie übertragen, Zugangsdaten liegen im Schlüsselbund und nicht in einer Einstellungsdatei.
+<a href="https://aicockpit.info"><img src="img/dashboard.jpg" alt="AI-Cockpit dashboard" width="720"></a>
 
-Die Apps sind unsigniert, weil ich keinen Developer-Account habe. Beim ersten Start braucht es darum den Umweg über Systemeinstellungen → Datenschutz & Sicherheit. Wer das nicht mag, baut selbst — `swift build -c release`, die Anleitung steht in beiden READMEs.
+**→ [aicockpit.info](https://aicockpit.info)** · Mac App Store: coming soon ·
+[Documentation](https://github.com/ipstyle/ai-cockpit-docs)
 
-### Fehler gefunden?
+Security-reviewed against OWASP ASVS 4.0, OWASP MASVS, the Apple Secure
+Coding Guide, RFC 8252/7636 and the CWE Top 25. English and German interface.
 
-Issue aufmachen. Sicherheitsprobleme bitte über die private Meldefunktion des jeweiligen Repos, nicht als öffentliches Issue.
+## 🧰 Toolbox
+
+**[Toolbox](https://github.com/ipstyle/toolbox)** — free, open-source macOS
+menu bar toolbox: desktops, app list, image resizing, text from image, PDF
+merging, QR codes, timers, passwords, network, Time Machine, currency rates
+and SARON. SwiftUI, DE/EN.
+
+## How I build
+
+Everything runs locally. Session contents are never transmitted; credentials
+live in the macOS Keychain, not in a settings file. AI-Cockpit is Developer-ID
+signed and notarized. Toolbox is open source — build it yourself with
+`swift build -c release`.
+
+## Found a bug?
+
+Open an issue — for AI-Cockpit in
+[ai-cockpit-docs](https://github.com/ipstyle/ai-cockpit-docs/issues), for
+Toolbox in [its repo](https://github.com/ipstyle/toolbox/issues). Please
+report security issues via the repo's private reporting feature, not as a
+public issue.
