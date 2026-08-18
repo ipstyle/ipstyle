@@ -10,9 +10,15 @@ A macOS menu bar app that keeps every AI budget in one place: **Claude** subscri
 
 <a href="https://aicockpit.info"><img src="img/dashboard.jpg" alt="AI-Cockpit dashboard" width="720"></a>
 
-**→ [aicockpit.info](https://aicockpit.info)** · Mac App Store: coming soon (CHF 3.50) · [Documentation](https://github.com/ipstyle/ai-cockpit-docs)
+<a href="https://apps.apple.com/app/id6802014255">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="img/mas-badge-dark.svg">
+    <img src="img/mas-badge-light.svg" alt="Download AI-Cockpit on the Mac App Store" height="44">
+  </picture></a>
 
-Security-reviewed against OWASP ASVS 4.0, OWASP MASVS, the Apple Secure Coding Guide, RFC 8252/7636 and the CWE Top 25. Developer-ID signed and notarized. English and German UI.
+**→ [aicockpit.info](https://aicockpit.info)** · CHF 3.50, one-time · [Documentation](https://github.com/ipstyle/ai-cockpit-docs)
+
+Security-reviewed against OWASP ASVS 4.0, OWASP MASVS, the Apple Secure Coding Guide, RFC 8252/7636 and the CWE Top 25. On the Mac App Store (fully sandboxed) and as a Developer-ID signed, notarized download. English and German UI.
 
 ---
 
