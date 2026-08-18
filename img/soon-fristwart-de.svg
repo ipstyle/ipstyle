@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" width="880" height="440" role="img" aria-labelledby="t">
+  <title id="t">Fristwart — rechnet von der Kündigungsfrist zurück bis zum Absendetag</title>
+  <defs>
+    <clipPath id="r"><rect width="880" height="440" rx="22"/></clipPath>
+    <radialGradient id="g" cx="0.85" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#5dcaa5" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#5dcaa5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#r)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <rect width="880" height="440" fill="#17171a"/>
+    <rect width="880" height="440" fill="url(#g)"/>
+
+    <text x="62" y="76" font-size="28" font-weight="700" fill="#e3e0da">Fristwart</text>
+    <rect x="762" y="50" width="56" height="32" rx="16" fill="#2a2a2e"/>
+    <text x="790" y="72" font-size="18" font-weight="600" fill="#a09d97" text-anchor="middle">iOS</text>
+
+    <!-- day chips 24..30, the 27th is the day it has to be sent -->
+    <g font-size="32" text-anchor="middle">
+      <rect x="62"  y="132" width="96" height="96" rx="20" fill="#1f1f23" stroke="#34343a"/><text x="110" y="190" fill="#a09d97">24</text>
+      <rect x="172" y="132" width="96" height="96" rx="20" fill="#1f1f23" stroke="#34343a"/><text x="220" y="190" fill="#a09d97">25</text>
+      <rect x="282" y="132" width="96" height="96" rx="20" fill="#1f1f23" stroke="#34343a"/><text x="330" y="190" fill="#a09d97">26</text>
+      <rect x="392" y="132" width="96" height="96" rx="20" fill="#0f6e56" stroke="#5dcaa5" stroke-width="2.5"/><text x="440" y="190" fill="#eceae5" font-weight="700">27</text>
+      <rect x="502" y="132" width="96" height="96" rx="20" fill="#1f1f23" stroke="#34343a"/><text x="550" y="190" fill="#6b6862">28</text>
+      <rect x="612" y="132" width="96" height="96" rx="20" fill="#1f1f23" stroke="#34343a"/><text x="660" y="190" fill="#6b6862">29</text>
+      <rect x="722" y="132" width="96" height="96" rx="20" fill="#1f1f23" stroke="#34343a" stroke-dasharray="5 5"/><text x="770" y="190" fill="#a09d97">30</text>
+    </g>
+    <path d="M440 240l-9-11h18z" fill="#5dcaa5"/>
+    <path d="M770 240l-9-11h18z" fill="#6b6862"/>
+
+    <!-- what the two marked days mean -->
+    <text x="62"  y="312" font-size="18" font-weight="600" letter-spacing="1.6" fill="#a09d97">ABSCHICKEN BIS</text>
+    <text x="62"  y="364" font-size="40" font-weight="700" fill="#5dcaa5">Fr 27. Sept</text>
+    <text x="818" y="312" font-size="18" font-weight="600" letter-spacing="1.6" fill="#6b6862" text-anchor="end">FRIST</text>
+    <text x="818" y="364" font-size="40" font-weight="700" fill="#e3e0da" text-anchor="end">30. Sept</text>
+  </g>
+</svg>
