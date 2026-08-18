@@ -1,4 +1,3 @@
-### Hi, I'm Albert 🇨🇭
 
 Indie developer building small, native apps for Mac and iPhone — no Electron, no trackers, no accounts. What can run locally, runs locally.
 
