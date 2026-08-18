@@ -20,7 +20,7 @@
 
     <text x="44" y="41" font-size="20" font-weight="600" fill="#e9eaee">ipstyle</text>
     <g font-size="20" fill="#a0a6b0">
-      <text x="124" y="41">Apps</text><text x="192" y="41">Source</text><text x="278" y="41">Privacy</text>
+      <text x="124" y="41">Apps</text><text x="192" y="41">Source</text><text x="300" y="41">Privacy</text>
     </g>
 
     <circle cx="876" cy="33" r="11" fill="none" stroke="#3a4049" stroke-width="3.4"/>
@@ -44,7 +44,7 @@
     <text x="1156" y="40" text-anchor="end" font-size="20" fill="#e9eaee">9:41</text>
 
     <text x="600" y="252" text-anchor="middle" font-size="130" font-weight="700" letter-spacing="-4.5" fill="#e9eaee">ipstyle</text>
-    <text x="600" y="318" text-anchor="middle" font-size="46" fill="#a0a6b0">native apps for Mac and iPhone</text>
+    <text x="600" y="336" text-anchor="middle" font-size="46" fill="#a0a6b0">native apps for Mac and iPhone</text>
 
     <rect x="0.5" y="0.5" width="1199" height="399" rx="18" fill="none" stroke="#2a2e36"/>
   </g>

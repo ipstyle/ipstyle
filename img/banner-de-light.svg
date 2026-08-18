@@ -44,7 +44,7 @@
     <text x="1156" y="40" text-anchor="end" font-size="20" fill="#16181d">9:41</text>
 
     <text x="600" y="252" text-anchor="middle" font-size="130" font-weight="700" letter-spacing="-4.5" fill="#16181d">ipstyle</text>
-    <text x="600" y="318" text-anchor="middle" font-size="46" fill="#5d636e">native Apps für Mac und iPhone</text>
+    <text x="600" y="336" text-anchor="middle" font-size="46" fill="#5d636e">native Apps für Mac und iPhone</text>
 
     <rect x="0.5" y="0.5" width="1199" height="399" rx="18" fill="none" stroke="#dfe3e9"/>
   </g>
