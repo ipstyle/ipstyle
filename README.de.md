@@ -3,6 +3,7 @@
   <img src="img/banner-de-light.svg" alt="ipstyle — native Apps für Mac und iPhone">
 </picture>
 
+<p align="center"><a href="https://ipstyle.github.io"><b>ipstyle.github.io →</b></a></p>
 <p align="right"><sub><a href="README.md">English →</a></sub></p>
 
 Zwei Apps im Mac App Store, zwei weitere unterwegs. Kein Electron, keine Tracker, keine Konten — was lokal laufen kann, läuft lokal.
@@ -64,11 +65,13 @@ Die Menüleiste, aufgeräumt.
 
 ### Wie ich baue
 
-Beide Mac-Apps kommen über den Mac App Store, vollständig sandboxed. BarBox steht unter GPL-3.0 — wer lieber selbst baut, nimmt `swift build -c release`.
+**Ruhend gespeichert.** API-Schlüssel und Anmeldungen liegen ausschliesslich im macOS-Schlüsselbund — vom Betriebssystem verschlüsselt, an dieses Gerät gebunden, nie mit iCloud synchronisiert. Nichts Sensibles landet in einer Einstellungsdatei, einer Datenbank oder einem Log.
 
-Nichts verlässt das Gerät. Zugangsdaten, wo überhaupt welche nötig sind, liegen im Schlüsselbund und nie in einer Einstellungsdatei. Keine Analyse, keine Konten, keine Werbung. Jede App spricht Deutsch und Englisch.
+**Auf dem Weg.** Jede Verbindung läuft über HTTPS zu einer festen, veröffentlichten Liste von Servern — sonst nichts, Weiterleitungen werden nie befolgt. Beide Apps nennen jeden Server namentlich in ihren Datenschutzhinweisen — selbst nachlesen statt einer Zusammenfassung glauben.
 
-AI-Cockpit wurde gegen OWASP ASVS 4.0, OWASP MASVS, den Apple Secure Coding Guide, RFC 8252/7636 und die CWE Top 25 geprüft.
+**Bleibt deins.** Der Nutzungsverlauf lässt sich jederzeit als HTML oder CSV exportieren und genauso leicht in den Einstellungen löschen. Nichts liegt hinter einem Login, den nur ich kontrolliere — es ist deine Datei. BarBox steht unter GPL-3.0, du musst mir also nichts davon glauben: der Netzwerkcode ist öffentlich, `swift build -c release` baut ihn selbst.
+
+Beide Mac-Apps kommen über den Mac App Store, vollständig sandboxed. Keine Analyse, keine Konten, keine Werbung. Jede App spricht Deutsch und Englisch. AI-Cockpit wurde gegen OWASP ASVS 4.0, OWASP MASVS, den Apple Secure Coding Guide, RFC 8252/7636 und die CWE Top 25 geprüft.
 
 ### Mehr
 
