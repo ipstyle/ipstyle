@@ -70,6 +70,10 @@ Nichts verlässt das Gerät. Zugangsdaten, wo überhaupt welche nötig sind, lie
 
 AI-Cockpit wurde gegen OWASP ASVS 4.0, OWASP MASVS, den Apple Secure Coding Guide, RFC 8252/7636 und die CWE Top 25 geprüft.
 
+### Mehr
+
+**[ipstyle.github.io](https://ipstyle.github.io)** — alle vier Apps auf einer Seite, mit vollen Screenshots und dem Warum dahinter.
+
 ### Fehler gefunden?
 
 Issue im betreffenden Repo aufmachen. Sicherheitsprobleme bitte über die private Meldefunktion des Repos statt als öffentliches Issue.
