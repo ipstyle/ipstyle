@@ -1,52 +1,65 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="img/banner-dark.svg">
+  <img src="img/banner-light.svg" alt="ipstyle — native apps for Mac and iPhone">
+</picture>
 
-Indie developer building small, native apps for Mac and iPhone — no Electron, no trackers, no accounts. What can run locally, runs locally.
+<p align="right"><sub><a href="README.de.md">Deutsch →</a></sub></p>
 
----
+Native apps for Mac and iPhone. No Electron, no trackers, no accounts — what can run locally, runs locally.
 
-### 🧠 AI-Cockpit — every AI budget, one glance
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="img/icon-aicockpit.png" width="60" alt="">
+<h3>AI-Cockpit</h3>
+<p>Every AI budget in one place — Claude, ChatGPT/Codex, OpenAI and Anthropic API, Kimi — plus the Claude Code sessions running on your Mac, with subagents, token shares and context windows.</p>
+<img src="img/menubar-aicockpit.jpg" width="100%" alt="AI-Cockpit in the menu bar">
+<p>
+<a href="https://apps.apple.com/app/id6802014255"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="img/mas-badge-dark.svg">
+<img src="img/mas-badge-light.svg" alt="Download AI-Cockpit on the Mac App Store" height="40">
+</picture></a>
+</p>
+<sub>CHF 3.50, one-time · macOS 14+ · <a href="https://aicockpit.info">aicockpit.info</a> · <a href="https://github.com/ipstyle/ai-cockpit-docs">Docs</a></sub>
+</td>
+<td width="50%" valign="top">
+<img src="img/icon-barbox.png" width="60" alt="">
+<h3>BarBox</h3>
+<p>The menu bar, tidied up — live CPU, memory and GPU stats, image compression, text from image, PDF merging, timers, weather and finance. Everything one click away.</p>
+<img src="img/menubar-barbox.jpg" width="100%" alt="BarBox in the menu bar">
+<p>
+<a href="https://apps.apple.com/app/id6802093315"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="img/mas-badge-dark.svg">
+<img src="img/mas-badge-light.svg" alt="Download BarBox on the Mac App Store" height="40">
+</picture></a>
+</p>
+<sub>Free · macOS 14+ · GPL-3.0 · <a href="https://github.com/ipstyle/barbox">Source</a> · <a href="https://ipstyle.github.io/barbox/">Website</a></sub>
+</td>
+</tr>
+</table>
 
-A macOS menu bar app that keeps every AI budget in one place: **Claude** subscription usage, **ChatGPT/Codex** quotas, **OpenAI** and **Anthropic** API costs, **Kimi** credit — plus the **Claude Code sessions** currently running on your Mac, with subagents, token shares and context windows.
+<details>
+<summary><b>See them properly</b> — full dashboards</summary>
+<br>
+<img src="img/dashboard.jpg" width="600" alt="AI-Cockpit dashboard: providers side by side, sparklines, forecasts, cost breakdown">
+<br><br>
+<img src="img/barbox.jpg" width="300" alt="BarBox dashboard: stats, status chips, sliders, favorites, tools and weather">
+</details>
 
-<a href="https://aicockpit.info"><img src="img/dashboard.jpg" alt="AI-Cockpit dashboard" width="720"></a>
+### In the works
 
-<a href="https://apps.apple.com/app/id6802014255">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="img/mas-badge-dark.svg">
-    <img src="img/mas-badge-light.svg" alt="Download AI-Cockpit on the Mac App Store" height="44">
-  </picture></a>
+**[Baumängel Tracker](https://github.com/ipstyle/baumaengel-tracker)** — snag lists with photo documentation for iPhone: rooms, defects, deadlines, and a clean PDF report at the end. In App Review. MIT.
 
-**→ [aicockpit.info](https://aicockpit.info)** · CHF 3.50, one-time · [Documentation](https://github.com/ipstyle/ai-cockpit-docs)
-
-Security-reviewed against OWASP ASVS 4.0, OWASP MASVS, the Apple Secure Coding Guide, RFC 8252/7636 and the CWE Top 25. On the Mac App Store (fully sandboxed) and as a Developer-ID signed, notarized download. English and German UI.
-
----
-
-### 🧰 BarBox — the macOS menu bar, tidied up
-
-Free, open-source menu bar toolbox: live CPU/MEM/GPU stats, image compression, text from image (OCR), PDF merging, timers, weather and finance — everything one click away.
-
-<a href="https://github.com/ipstyle/barbox"><img src="img/barbox.jpg" alt="BarBox dashboard" width="320"></a>
-
-**→ [github.com/ipstyle/barbox](https://github.com/ipstyle/barbox)** — free, source available, no account, no tracking.
-
----
-
-### 🛠️ Baumängel Tracker — snag lists for iPhone
-
-Photo-documented defect tracking for construction handovers: add rooms, log defects with photo and deadline, tick them off — and export a clean PDF report at the end.
-
-<a href="https://github.com/ipstyle/baumaengel-tracker"><img src="img/baumaengel.png" alt="Baumängel Tracker defect list" width="220"></a>
-
-**→ [github.com/ipstyle/baumaengel-tracker](https://github.com/ipstyle/baumaengel-tracker)** — free, source available, no account, no ads, no analytics.
-
----
+**Fristwart** — never miss a cancellation deadline; it counts back to the day you have to send. In development.
 
 ### How I build
 
-Everything runs locally — no data ever leaves the device unless you explicitly share it. Credentials, where needed, live in the macOS Keychain, never in a settings file.
+Both Mac apps ship through the Mac App Store, fully sandboxed. BarBox is GPL-3.0 — build it yourself with `swift build -c release` if you'd rather.
 
-The open-source apps are unsigned unless noted otherwise — the first launch needs the usual detour through System Settings → Privacy & Security. Prefer to build it yourself? `swift build -c release`, instructions in each repo's README.
+Nothing leaves your device. Credentials, where any are needed, live in the macOS Keychain and never in a settings file. No analytics, no accounts, no ads.
+
+AI-Cockpit was reviewed against OWASP ASVS 4.0, OWASP MASVS, the Apple Secure Coding Guide, RFC 8252/7636 and the CWE Top 25.
 
 ### Found a bug?
 
-Open an issue in the relevant repo. Please report security issues through the repo's private reporting feature, not as a public issue.
+Open an issue in the relevant repo. Please report security issues through the repo's private reporting feature rather than as a public issue.
