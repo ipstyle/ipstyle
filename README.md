@@ -70,6 +70,10 @@ Nothing leaves your device. Credentials, where any are needed, live in the macOS
 
 AI-Cockpit was reviewed against OWASP ASVS 4.0, OWASP MASVS, the Apple Secure Coding Guide, RFC 8252/7636 and the CWE Top 25.
 
+### More
+
+**[ipstyle.github.io](https://ipstyle.github.io)** — all four apps on one page, with full screenshots and the reasoning behind them.
+
 ### Found a bug?
 
 Open an issue in the relevant repo. Please report security issues through the repo's private reporting feature rather than as a public issue.
