@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" width="880" height="440" role="img" aria-labelledby="t">
+  <title id="t">Baumängel Tracker — rooms with open defects and a PDF report</title>
+  <defs>
+    <clipPath id="r"><rect width="880" height="440" rx="22"/></clipPath>
+    <radialGradient id="g" cx="0.85" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#ed852e" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ed852e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#r)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <rect width="880" height="440" fill="#1b1d22"/>
+    <rect width="880" height="440" fill="url(#g)"/>
+
+    <text x="62" y="76" font-size="28" font-weight="700" fill="#e9eaee">Baumängel Tracker</text>
+    <rect x="762" y="50" width="56" height="32" rx="16" fill="#2a2e36"/>
+    <text x="790" y="72" font-size="18" font-weight="600" fill="#a0a6b0" text-anchor="middle">iOS</text>
+
+    <!-- room rows -->
+    <g>
+      <rect x="62" y="118" width="756" height="62" rx="14" fill="#22252b"/>
+      <rect x="80" y="130" width="38" height="38" rx="9" fill="#3a2c1c"/>
+      <path d="M89 158l9-11 7 8 5-5 8 8z" fill="#ed852e"/><circle cx="93" cy="141" r="3.5" fill="#ed852e"/>
+      <text x="136" y="156" font-size="23" fill="#e9eaee">Living room</text>
+      <rect x="470" y="145" width="200" height="8" rx="4" fill="#34343a"/>
+      <rect x="470" y="145" width="120" height="8" rx="4" fill="#ed852e"/>
+      <text x="800" y="156" font-size="20" fill="#a0a6b0" text-anchor="end">3 open</text>
+    </g>
+    <g>
+      <rect x="62" y="196" width="756" height="62" rx="14" fill="#22252b"/>
+      <rect x="80" y="208" width="38" height="38" rx="9" fill="#3a2c1c"/>
+      <path d="M89 236l9-11 7 8 5-5 8 8z" fill="#ed852e"/><circle cx="93" cy="219" r="3.5" fill="#ed852e"/>
+      <text x="136" y="234" font-size="23" fill="#e9eaee">Kitchen</text>
+      <rect x="470" y="223" width="200" height="8" rx="4" fill="#34343a"/>
+      <rect x="470" y="223" width="200" height="8" rx="4" fill="#5dbf7a"/>
+      <path d="M786 223l6 6 10-12" fill="none" stroke="#5dbf7a" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <rect x="62" y="274" width="756" height="62" rx="14" fill="#22252b"/>
+      <rect x="80" y="286" width="38" height="38" rx="9" fill="#3a2c1c"/>
+      <path d="M89 314l9-11 7 8 5-5 8 8z" fill="#ed852e"/><circle cx="93" cy="297" r="3.5" fill="#ed852e"/>
+      <text x="136" y="312" font-size="23" fill="#e9eaee">Bathroom</text>
+      <rect x="470" y="301" width="200" height="8" rx="4" fill="#34343a"/>
+      <rect x="470" y="301" width="64" height="8" rx="4" fill="#ed852e"/>
+      <text x="800" y="312" font-size="20" fill="#a0a6b0" text-anchor="end">1 open</text>
+    </g>
+
+    <!-- footer -->
+    <rect x="62" y="368" width="112" height="42" rx="21" fill="#d96b1a"/>
+    <text x="118" y="396" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">PDF</text>
+    <text x="818" y="396" font-size="21" fill="#a0a6b0" text-anchor="end">3 rooms &#183; 4 defects &#183; 1 photo each</text>
+  </g>
+</svg>
