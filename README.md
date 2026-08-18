@@ -2,7 +2,8 @@
   <source media="(prefers-color-scheme: dark)" srcset="img/banner-dark.svg">
   <img src="img/banner-light.svg" alt="ipstyle — native apps for Mac and iPhone">
 </picture>
-https://ipstyle.github.io/
+
+<p align="center"><a href="https://ipstyle.github.io"><b>ipstyle.github.io →</b></a></p>
 <p align="right"><sub><a href="README.de.md">Deutsch →</a></sub></p>
 
 Two apps on the Mac App Store, two more on the way. No Electron, no trackers, no accounts — what can run locally, runs locally.
@@ -64,11 +65,13 @@ The menu bar, tidied up.
 
 ### How I build
 
-Both Mac apps ship through the Mac App Store, fully sandboxed. BarBox is GPL-3.0 — build it yourself with `swift build -c release` if you'd rather.
+**At rest.** API keys and sign-ins live only in the macOS Keychain — encrypted by the OS, tied to this device, never synced to iCloud. Nothing sensitive ever touches a settings file, a database or a log.
 
-Nothing leaves your device. Credentials, where any are needed, live in the macOS Keychain and never in a settings file. No analytics, no accounts, no ads. Every app speaks English and German.
+**In transit.** Every connection goes over HTTPS to a fixed, published allowlist of hosts — nothing else, and redirects are never followed. Both apps name every host in their privacy notes; check for yourself rather than trusting a summary.
 
-AI-Cockpit was reviewed against OWASP ASVS 4.0, OWASP MASVS, the Apple Secure Coding Guide, RFC 8252/7636 and the CWE Top 25.
+**Yours to keep.** Usage history exports as HTML or CSV whenever you want, and clears just as easily from Settings. Nothing sits behind a login only I control — it's your file. BarBox is GPL-3.0, so you don't have to take my word for any of this: the network code is public, build it yourself with `swift build -c release`.
+
+Both Mac apps ship through the Mac App Store, fully sandboxed. No analytics, no accounts, no ads. Every app speaks English and German. AI-Cockpit was reviewed against OWASP ASVS 4.0, OWASP MASVS, the Apple Secure Coding Guide, RFC 8252/7636 and the CWE Top 25.
 
 ### More
 
