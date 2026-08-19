@@ -65,13 +65,21 @@ Die Menüleiste, aufgeräumt.
 
 ### Wie ich baue
 
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/trust-sandboxed-de-dark.svg"><img src="img/trust-sandboxed-de-light.svg" alt="Mac App Store — Sandboxed" width="255"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/trust-noanalytics-de-dark.svg"><img src="img/trust-noanalytics-de-light.svg" alt="Keine Analyse · Konten · Werbung" width="283"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/trust-asvs-de-dark.svg"><img src="img/trust-asvs-de-light.svg" alt="OWASP ASVS 4.0 · MASVS" width="246"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/trust-apple-de-dark.svg"><img src="img/trust-apple-de-light.svg" alt="Apple Secure Coding Guide" width="244"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/trust-rfc-de-dark.svg"><img src="img/trust-rfc-de-light.svg" alt="RFC 8252/7636 · CWE Top 25" width="266"></picture>
+</p>
+
 **Ruhend gespeichert.** API-Schlüssel und Anmeldungen liegen ausschliesslich im macOS-Schlüsselbund — vom Betriebssystem verschlüsselt, an dieses Gerät gebunden, nie mit iCloud synchronisiert. Nichts Sensibles landet in einer Einstellungsdatei, einer Datenbank oder einem Log.
 
 **Auf dem Weg.** Jede Verbindung läuft über HTTPS zu einer festen, veröffentlichten Liste von Servern — sonst nichts, Weiterleitungen werden nie befolgt. Beide Apps nennen jeden Server namentlich in ihren Datenschutzhinweisen — selbst nachlesen statt einer Zusammenfassung glauben.
 
 **Bleibt deins.** Der Nutzungsverlauf lässt sich jederzeit als HTML oder CSV exportieren und genauso leicht in den Einstellungen löschen. Nichts liegt hinter einem Login, den nur ich kontrolliere — es ist deine Datei. BarBox steht unter GPL-3.0, du musst mir also nichts davon glauben: der Netzwerkcode ist öffentlich, `swift build -c release` baut ihn selbst.
 
-Beide Mac-Apps kommen über den Mac App Store, vollständig sandboxed. Keine Analyse, keine Konten, keine Werbung. Jede App spricht Deutsch und Englisch. AI-Cockpit wurde gegen OWASP ASVS 4.0, OWASP MASVS, den Apple Secure Coding Guide, RFC 8252/7636 und die CWE Top 25 geprüft.
+Jede App spricht Deutsch und Englisch.
 
 ### Mehr
 
