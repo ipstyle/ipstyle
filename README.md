@@ -65,13 +65,21 @@ The menu bar, tidied up.
 
 ### How I build
 
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/trust-sandboxed-dark.svg"><img src="img/trust-sandboxed-light.svg" alt="Mac App Store — Sandboxed" width="255"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/trust-noanalytics-dark.svg"><img src="img/trust-noanalytics-light.svg" alt="No Analytics · No Accounts · No Ads" width="299"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/trust-asvs-dark.svg"><img src="img/trust-asvs-light.svg" alt="OWASP ASVS 4.0 · MASVS" width="246"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/trust-apple-dark.svg"><img src="img/trust-apple-light.svg" alt="Apple Secure Coding Guide" width="244"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="img/trust-rfc-dark.svg"><img src="img/trust-rfc-light.svg" alt="RFC 8252/7636 · CWE Top 25" width="266"></picture>
+</p>
+
 **At rest.** API keys and sign-ins live only in the macOS Keychain — encrypted by the OS, tied to this device, never synced to iCloud. Nothing sensitive ever touches a settings file, a database or a log.
 
 **In transit.** Every connection goes over HTTPS to a fixed, published allowlist of hosts — nothing else, and redirects are never followed. Both apps name every host in their privacy notes; check for yourself rather than trusting a summary.
 
 **Yours to keep.** Usage history exports as HTML or CSV whenever you want, and clears just as easily from Settings. Nothing sits behind a login only I control — it's your file. BarBox is GPL-3.0, so you don't have to take my word for any of this: the network code is public, build it yourself with `swift build -c release`.
 
-Both Mac apps ship through the Mac App Store, fully sandboxed. No analytics, no accounts, no ads. Every app speaks English and German. AI-Cockpit was reviewed against OWASP ASVS 4.0, OWASP MASVS, the Apple Secure Coding Guide, RFC 8252/7636 and the CWE Top 25.
+Every app speaks English and German.
 
 ### More
 
